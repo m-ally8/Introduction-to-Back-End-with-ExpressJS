@@ -4,3 +4,14 @@
 4. git remote add origin https://github.com/USER/REPO.git
 5. git remote set-url origin https://USER:TOKEN@github.com/USER/REPO.git
 6. git push --set-upstream origin master
+
+
+The default branch has been renamed!
+main is now named master
+
+If you have a local clone, you can update it by running the following commands.
+
+git branch -m main master
+git fetch origin
+git branch -u master master
+git remote set-head origin -a
